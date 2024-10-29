@@ -1,0 +1,56 @@
+section.course_box {
+    background: #a2b4f5;
+    background: linear-gradient(180deg,rgba(162,180,245,1) 19%,rgba(255,255,255,1) 100%)
+}
+
+.course_box .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all .2s;
+    box-shadow: 0 .5rem 1rem 0 rgba(0,0,0,.1)
+}
+
+.course_box hr {
+    margin: 1.5rem 0
+}
+
+.course_box .card-title {
+    margin: .5rem 0;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    font-weight: 700
+}
+
+.course_box ul li {
+    margin-bottom: 1rem
+}
+
+.course_box .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: 700;
+    padding: .8rem;
+    transition: all .2s
+}
+
+.course_box .card-price {
+    font-size: 2rem;
+    margin: 0
+}
+
+.course_box .text-muted {
+    opacity: .7
+}
+
+@media(min-width: 992px) {
+    .course_box .card:hover {
+        margin-top:-.25rem;
+        margin-bottom: .25rem;
+        box-shadow: 0 .5rem 1rem 0 rgba(0,0,0,.3)
+    }
+
+    .course_box .card:hover .btn {
+        opacity: 1
+    }
+}
